@@ -1,0 +1,6 @@
+[Unit]
+Description=Whitestar files downloader
+
+[Service]
+Type=oneshot
+ExecStart=/home/enki/bin/whitestar-dl.sh

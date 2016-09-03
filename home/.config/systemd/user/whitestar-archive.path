@@ -1,0 +1,9 @@
+[Unit]
+Description=Whitestar archive path watcher
+
+[Path]
+PathExistsGlob=/home/enki/devices/whitestar/archive/kismet-*.tar
+Unit=wigle-uploader.service
+
+[Install]
+WantedBy=paths.target

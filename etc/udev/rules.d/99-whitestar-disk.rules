@@ -1,0 +1,1 @@
+ACTION=="add", SUBSYSTEM=="block", ATTR{partition}=="2", ATTRS{vendor}=="<HDD VENDOR>", ATTRS{model}=="<HDD MODEL>", TAG+="systemd", ENV{MANAGER_USER_WANTS}="whitestar-downloader.service"

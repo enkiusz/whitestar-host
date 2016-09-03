@@ -1,0 +1,7 @@
+[Unit]
+Description=Wigle.net uploader
+
+[Service]
+Type=oneshot
+Environment="WIGLE_USERNAME=enkiusz" "WIGLE_PASSWORDFILE=%h/.config/wigle-uploader.password"
+ExecStart=/home/enki/bin/wigle-uploader.sh
